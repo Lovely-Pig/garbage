@@ -19,5 +19,5 @@ for filename in filenames:
     write_train_path(filename)
 
 
-for filename in filenames[-10:]:
+for filename in filenames[-16:]:
     write_valid_path(filename)
