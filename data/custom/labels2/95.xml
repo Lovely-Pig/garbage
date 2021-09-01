@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>95.jpg</filename>
+	<path>data/custom/images/95.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>cans</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>88</ymin>
+			<xmax>494</xmax>
+			<ymax>324</ymax>
+		</bndbox>
+	</object>
+</annotation>

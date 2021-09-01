@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>27.jpg</filename>
+	<path>data/custom/images/27.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>book</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>910</xmin>
+			<ymin>411</ymin>
+			<xmax>3588</xmax>
+			<ymax>2133</ymax>
+		</bndbox>
+	</object>
+</annotation>

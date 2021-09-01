@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>81.jpg</filename>
+	<path>data/custom/images/81.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>power_bank</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>142</ymin>
+			<xmax>660</xmax>
+			<ymax>520</ymax>
+		</bndbox>
+	</object>
+</annotation>

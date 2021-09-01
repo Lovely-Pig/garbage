@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>2.jpg</filename>
+	<path>data/custom/images/2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>887</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>power_bank</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>349</xmin>
+			<ymin>117</ymin>
+			<xmax>1273</xmax>
+			<ymax>499</ymax>
+		</bndbox>
+	</object>
+</annotation>

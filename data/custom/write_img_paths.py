@@ -1,23 +1,16 @@
-import os
+
+def write_train_path(num: int):
+    with open('train.txt', 'w') as fp:
+        for file_id in range(1, num + 1):
+            fp.write(f'data/custom/images/{file_id}.jpg\n')
 
 
-def write_train_path(img_name: str):
-    with open('train.txt', 'a') as f:
-        f.write(f'data/custom/images/{img_name}\n')
+def write_valid_path(num: int):
+    with open('valid.txt', 'w') as fp:
+        for file_id in range(1, num + 1):
+            fp.write(f'data/custom/images/{file_id}.jpg\n')
 
 
-def write_valid_path(img_name: str):
-    with open('valid.txt', 'a') as f:
-        f.write(f'data/custom/images/{img_name}\n')
-
-
-filepath = 'images/'
-filenames = os.listdir(path=filepath)
-
-
-for filename in filenames:
-    write_train_path(filename)
-
-
-for filename in filenames[-16:]:
-    write_valid_path(filename)
+if __name__ == '__main__':
+    write_train_path(num=122)
+    write_valid_path(num=16)

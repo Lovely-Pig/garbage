@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>44.jpg</filename>
+	<path>data/custom/images/44.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>plastic_bag</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1521</xmin>
+			<ymin>1070</ymin>
+			<xmax>2438</xmax>
+			<ymax>1749</ymax>
+		</bndbox>
+	</object>
+</annotation>

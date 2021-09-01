@@ -268,10 +268,10 @@ def run():
     # args = parser.parse_args()
     # print(f"Command line arguments: {args}")
     model = "config/yolov3.cfg"
-    weights = "checkpoints/yolov3_ckpt_30.pth"
+    weights = "checkpoints2/yolov3_ckpt_50.pth"
     images = "data/test"
     classes = "data/custom/classes.names"
-    output = "output_30"
+    output = "output_50"
     batch_size = 1
     img_size = 416
     n_cpu = 2

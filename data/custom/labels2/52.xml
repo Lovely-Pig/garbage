@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>52.jpg</filename>
+	<path>data/custom/images/52.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>4000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>cake_box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>428</xmin>
+			<ymin>980</ymin>
+			<xmax>2512</xmax>
+			<ymax>2614</ymax>
+		</bndbox>
+	</object>
+</annotation>

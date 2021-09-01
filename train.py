@@ -96,7 +96,6 @@ def run():
     logger = Logger(logdir)  # Tensorboard logger
 
     # Create output directories if missing
-    os.makedirs("output", exist_ok=True)
     os.makedirs("checkpoints", exist_ok=True)
 
     # Get data configuration
@@ -233,7 +232,7 @@ def run():
 
         # Save model to checkpoint file
         if epoch % checkpoint_interval == 0:
-            checkpoint_path = f"../checkpoints/yolov3_ckpt_{epoch}.pth"
+            checkpoint_path = f"checkpoints/yolov3_ckpt_{epoch}.pth"
             print(f"---- Saving checkpoint to: '{checkpoint_path}' ----")
             torch.save(model.state_dict(), checkpoint_path)
 

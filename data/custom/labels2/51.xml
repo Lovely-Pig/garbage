@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>51.jpg</filename>
+	<path>data/custom/images/51.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>4000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>fastfood_box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>684</xmin>
+			<ymin>698</ymin>
+			<xmax>2437</xmax>
+			<ymax>2573</ymax>
+		</bndbox>
+	</object>
+</annotation>

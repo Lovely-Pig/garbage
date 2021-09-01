@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>113.jpg</filename>
+	<path>data/custom/images/113.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>577</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+    <object>
+		<name>milk_box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>288</ymin>
+			<xmax>390</xmax>
+			<ymax>672</ymax>
+		</bndbox>
+	</object>
+</annotation>
