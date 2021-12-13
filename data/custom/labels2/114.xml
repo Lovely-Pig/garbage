@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
     <object>
-		<name>milk_box</name>
+		<name>milk box</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1100</width>
-		<height>1390</height>
+		<width>990</width>
+		<height>1251</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
     <object>
-		<name>power_bank</name>
+		<name>power bank</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>148</xmin>
-			<ymin>513</ymin>
-			<xmax>964</xmax>
-			<ymax>1076</ymax>
+			<xmin>133</xmin>
+			<ymin>462</ymin>
+			<xmax>868</xmax>
+			<ymax>968</ymax>
 		</bndbox>
 	</object>
 </annotation>

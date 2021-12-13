@@ -26,8 +26,7 @@ def get_and_check(root, name, length):
 
 
 def convert_file(file_id: int, input_dir: str, output_dir: str):
-    with open('hello.txt', 'w') as fp:
-        fp.write('')
+    print(f'{input_dir}/{file_id}.xml -> {output_dir}/{file_id}.txt')
 
     tree = ET.parse(f'{input_dir}/{file_id}.xml')
     root = tree.getroot()

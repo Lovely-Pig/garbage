@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>4608</width>
-		<height>3456</height>
+		<width>922</width>
+		<height>691</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
     <object>
-		<name>plastic_bottle</name>
+		<name>plastic bottle</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2140</xmin>
-			<ymin>205</ymin>
-			<xmax>2988</xmax>
-			<ymax>2129</ymax>
+			<xmin>428</xmin>
+			<ymin>41</ymin>
+			<xmax>598</xmax>
+			<ymax>426</ymax>
 		</bndbox>
 	</object>
 </annotation>

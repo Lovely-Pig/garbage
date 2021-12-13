@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>3000</width>
-		<height>4000</height>
+		<width>900</width>
+		<height>1200</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
     <object>
-		<name>fastfood_box</name>
+		<name>fastfood box</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>368</xmin>
-			<ymin>451</ymin>
-			<xmax>2565</xmax>
-			<ymax>2051</ymax>
+			<xmin>110</xmin>
+			<ymin>135</ymin>
+			<xmax>769</xmax>
+			<ymax>615</ymax>
 		</bndbox>
 	</object>
 </annotation>

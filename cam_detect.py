@@ -1,5 +1,3 @@
-#! /usr/bin/env python3
-
 import cv2
 import torch
 import random
@@ -71,7 +69,7 @@ def write(img, detections, classes, colors):
 
 def run():
     model = "config/yolov3.cfg"
-    weights = "checkpoints2/yolov3_ckpt_30.pth"
+    weights = "checkpoints3/yolov3_ckpt_100.pth"
     classes = "data/custom/classes.names"
     # weights = "yolov3.weights"
     # classes = "data/coco.names"

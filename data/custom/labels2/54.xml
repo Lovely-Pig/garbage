@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>3000</width>
-		<height>4000</height>
+		<width>900</width>
+		<height>1200</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
     <object>
-		<name>cake_box</name>
+		<name>cake box</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>765</xmin>
-			<ymin>1070</ymin>
-			<xmax>2025</xmax>
-			<ymax>3033</ymax>
+			<xmin>230</xmin>
+			<ymin>321</ymin>
+			<xmax>608</xmax>
+			<ymax>910</ymax>
 		</bndbox>
 	</object>
 </annotation>

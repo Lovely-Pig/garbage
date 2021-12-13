@@ -1,5 +1,3 @@
-#! /usr/bin/env python3
-
 from __future__ import division
 
 import os
@@ -16,7 +14,7 @@ from torch.utils.data import DataLoader
 from torch.autograd import Variable
 
 from models import load_model
-from utils.utils import load_classes, rescale_boxes, non_max_suppression, print_environment_info
+from utils.utils import load_classes, rescale_boxes, non_max_suppression
 from utils.datasets import ImageFolder
 from utils.transforms import Resize, DEFAULT_TRANSFORMS
 
@@ -196,6 +194,7 @@ def _draw_and_save_output_image(image_path, detections, img_size, output_path, c
 
         try:
             print(f"\t+ Label: {classes[int(cls_pred)]} | Confidence: {conf.item():0.4f}")
+            print(f'x1: {x1}, y1: {y1}, x2: {x2}, y2: {y2}')
 
             box_w = x2 - x1
             box_h = y2 - y1
@@ -253,25 +252,12 @@ def _create_data_loader(img_path, batch_size, img_size, n_cpu):
 
 
 def run():
-    # print_environment_info()
-    # parser = argparse.ArgumentParser(description="Detect objects on images.")
-    # parser.add_argument("-m", "--model", type=str, default="config/yolov3.cfg", help="Path to model definition file (.cfg)")
-    # parser.add_argument("-w", "--weights", type=str, default="weights/yolov3.weights", help="Path to weights or checkpoint file (.weights or .pth)")
-    # parser.add_argument("-i", "--images", type=str, default="data/samples", help="Path to directory with images to inference")
-    # parser.add_argument("-c", "--classes", type=str, default="data/coco.names", help="Path to classes label file (.names)")
-    # parser.add_argument("-o", "--output", type=str, default="output", help="Path to output directory")
-    # parser.add_argument("-b", "--batch_size", type=int, default=1, help="Size of each image batch")
-    # parser.add_argument("--img_size", type=int, default=416, help="Size of each image dimension for yolo")
-    # parser.add_argument("--n_cpu", type=int, default=8, help="Number of cpu threads to use during batch generation")
-    # parser.add_argument("--conf_thres", type=float, default=0.5, help="Object confidence threshold")
-    # parser.add_argument("--nms_thres", type=float, default=0.4, help="IOU threshold for non-maximum suppression")
-    # args = parser.parse_args()
-    # print(f"Command line arguments: {args}")
+
     model = "config/yolov3.cfg"
     weights = "checkpoints2/yolov3_ckpt_50.pth"
-    images = "data/test"
+    images = "data/test3"
     classes = "data/custom/classes.names"
-    output = "output_50"
+    output = "output_test3"
     batch_size = 1
     img_size = 416
     n_cpu = 2
